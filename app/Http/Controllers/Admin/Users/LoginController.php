@@ -9,7 +9,7 @@ class LoginController extends Controller
 {
     public function index(){
         return view('admin.users.login',[
-            'title' => 'đăng nhập'
+            'title' => 'Đăng Nhập Hệ Thống'
         ]);
     }
 }
